@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us | Sacred Harvesters International Christian School</title>
+
+  <!-- Bootstrap & FontAwesome -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="theme.css">
+  <link rel="stylesheet" href="contact-us.css">
+
+  <style>
+    .hero {
+      background: url('assets/home-background.png') center/cover no-repeat;
+      color: white;
+      padding: 100px 0;
+      text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    .navbar-brand-logo {
+      height: 50px;
+      margin-right: 10px;
+    }
+
+    section {
+      padding: 60px 0;
+    }
+
+    h2.section-title {
+      font-weight: 700;
+      color: #004aad;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .contact-info i {
+      font-size: 1.5rem;
+      color: #004aad;
+      margin-right: 15px;
+    }
+
+    footer {
+      background-color: #004aad;
+      color: #fff;
+      padding: 40px 0;
+    }
+
+    footer a {
+      color: #dfe6f1;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    iframe {
+      border-radius: 10px;
+      width: 100%;
+      height: 350px;
+      border: 0;
+    }
+
+    .contact-form .form-control {
+      border-radius: 10px;
+      box-shadow: none;
+      border-color: #ccc;
+    }
+
+    .contact-form button {
+      border-radius: 10px;
+      padding: 10px 30px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <img src="assets/Logo.png" alt="Logo" class="navbar-brand-logo">
+        <strong>S.H.I.C.S</strong>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about-us.html">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="curriculum.html">Curriculum</a></li>
+          <li class="nav-item"><a class="nav-link" href="admissions.html">Admissions</a></li>
+          <li class="nav-item active"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero text-center">
+    <div class="container">
+      <h1 class="display-4 font-weight-bold mb-3">Contact Us</h1>
+      <p class="lead">We’d love to hear from you. Get in touch with us today!</p>
+    </div>
+  </header>
+
+  <!-- Contact Information -->
+  <section>
+    <div class="container">
+      <h2 class="section-title">Get in Touch</h2>
+      <div class="row text-center contact-info">
+        <div class="col-md-4 mb-4">
+          <i class="fas fa-map-marker-alt mb-2"></i>
+          <h5 class="font-weight-bold">Our Location</h5>
+          <p>123 Harvest Way, Accra, Ghana</p>
+        </div>
+        <div class="col-md-4 mb-4">
+          <i class="fas fa-phone-alt mb-2"></i>
+          <h5 class="font-weight-bold">Call Us</h5>
+          <p>+233 55 123 4567<br>+233 24 987 6543</p>
+        </div>
+        <div class="col-md-4 mb-4">
+          <i class="fas fa-envelope mb-2"></i>
+          <h5 class="font-weight-bold">Email Us</h5>
+          <p>info@shics.edu.gh<br>admissions@shics.edu.gh</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form & Map -->
+  <section class="bg-light">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Contact Form -->
+        <div class="col-lg-6 mb-5 mb-lg-0 contact-form">
+          <h2 class="section-title">Send Us a Message</h2>
+          <form>
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" class="form-control" placeholder="Your full name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" class="form-control" placeholder="Your email" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea id="message" rows="4" class="form-control" placeholder="Type your message..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Submit</button>
+          </form>
+        </div>
+
+        <!-- Map -->
+        <div class="col-lg-6">
+          <h2 class="section-title">Find Us Here</h2>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31571.839504217764!2d-0.19643219416314834!3d5.603716663203174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9bb4ab50b2cf%3A0x68188a657ebd4a8e!2sAccra%2C%20Ghana!5e0!3m2!1sen!2sgh!4v1707043187345!5m2!1sen!2sgh"
+            allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <h4 class="text-white">S.H.I.C.S</h4>
+          <ul class="list-unstyled">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="curriculum.html">Curriculum</a></li>
+            <li><a href="admissions.html">Admissions</a></li>
+            <li><a href="contact-us.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <h4 class="text-white">Subscribe</h4>
+          <form>
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="Enter your email">
+            </div>
+            <button type="submit" class="btn btn-light btn-block">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <hr class="bg-light">
+      <p class="text-center mb-0">&copy; 2025 Sacred Harvesters International Christian School. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
